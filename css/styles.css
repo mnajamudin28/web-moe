@@ -1,0 +1,98 @@
+body{
+    font-family: 'PT Mono', monospace;
+}
+
+nav{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(100, 100, 100);
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo a:hover{
+    color: rgb(100, 100, 100);
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 10px;
+}
+.logo a{
+    text-decoration: none !important;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;   
+}
+
+.menu a{
+    text-decoration: none !important;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+.container-1{
+    margin-top: auto;
+}
+.card-foto{
+    margin-top: 50px;
+    padding: 30px;
+    width: 500px; 
+    text-align: center;
+}
+
+.box-pp{
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    width: 310px;
+    background-color: black;
+    border: 1px solid;
+    box-shadow: -12px 12px #51D5FF;
+}
+
+.container-logo{
+    margin-top: 40px;
+}
+.card-logo{
+    display: inline-block;
+    padding: 18px;
+    background-color: #000000;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow: -8px 8px #51D5FF;
+}
+.logo-sosmed{
+    width: 30px;
+}
+
+.judul {
+    display: inline;
+}
