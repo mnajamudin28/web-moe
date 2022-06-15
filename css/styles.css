@@ -58,28 +58,61 @@ nav a:hover{
     display: none;
 }
 
-.container-1{
-    margin-top: auto;
-}
-.card-foto{
+.container-1 {
+    margin-left: 20px;
     margin-top: 50px;
-    padding: 30px;
-    width: 500px; 
-    text-align: center;
+    width: 1000px;
+    height: 550px;
 }
 
-.box-pp{
-    margin: auto;
-    padding-top: 5px;
+.container-1 h1{
+    font-size: 64px;
+}
+
+.container-1 button{
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-family: 'PT Mono', monospace;
+    box-shadow: -7px 7px #51D5FF;
+    font-size: 16px;
+}
+
+.container-1 a{
+    color: white;
+    text-decoration: none !important;
+}
+
+.container-1 button:hover{
+    background-color: aliceblue;
+    color: #000000;
+}
+
+.container-1 a:hover {
+    color: black;
+    text-decoration: none !important;
+}
+
+.pp{
+    float: left;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding-top: 3px;
     padding-bottom: 70px;
     width: 310px;
     background-color: black;
-    border: 1px solid;
+    border: 8px solid;
     box-shadow: -12px 12px #51D5FF;
 }
 
+
 .container-logo{
     margin-top: 40px;
+    position: absolute;
+    bottom: -20px;
+    left: 80px;
 }
 .card-logo{
     display: inline-block;
@@ -93,6 +126,6 @@ nav a:hover{
     width: 30px;
 }
 
-.judul {
-    display: inline;
+.judul{
+    float: right;
 }
