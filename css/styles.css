@@ -129,10 +129,12 @@ nav a:hover{
 /* --------------------------------CV----------------------------------- */
 
 .body-cv{
-    height: 842px ;
+    height: 1000px ;
     width: 595px;
     margin: auto;
     font-family: 'Source Sans Pro';
+    background-color: aliceblue;
+    margin-bottom: 200px;
 }
 
 .head-cv{
@@ -187,12 +189,11 @@ nav a:hover{
 .content-cv{
     margin-left: 30px;
     margin-right: 30px; 
-    
 }
 
 .content-cv h1{
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 1px;
     font-weight: bold;
     color: #0B2842;
     
@@ -218,3 +219,64 @@ nav a:hover{
     font-size: 12px;
 }
 
+.box-web-dev{
+    margin-top: 1px;
+    border: solid rgba(0, 0, 0, 0.24);
+    border-width: 1px;
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+.box-tech-stack{
+    display: grid;
+    grid-template-columns: 90px 70px 110px 80px 100px 100px;
+    padding: 5px;
+}
+
+.tech-stack{
+    border: solid rgba(0, 0, 0, 0.24);
+    border-width: 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.logo-in-box{
+    float: left;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logo2-in-box{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.mongoDB{
+    padding-top: 3px;
+}
+
+.box-soft-skill {
+    display: grid;
+    grid-template-columns: 150px 150px 200px;
+    padding: 5px;
+}
+
+.soft-skill {
+    border: solid rgba(0, 0, 0, 0.24);
+    border-width: 1px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    padding-top: 3px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
