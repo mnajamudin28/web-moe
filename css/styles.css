@@ -133,7 +133,7 @@ nav a:hover{
     width: 595px;
     margin: auto;
     font-family: 'Source Sans Pro';
-    background-color: aliceblue;
+    background-color: rgba(244, 244, 244, 0.773);
     margin-bottom: 200px;
 }
 
