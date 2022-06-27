@@ -1,0 +1,166 @@
+@media screen and (min-width:600px) and (max-width:1600px){
+body{
+    background-color:#141414;
+    color: green;
+    text-align: center;
+}
+.pp{
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 35px green;
+}
+
+h1{
+    visibility: hidden;
+    margin: 0;
+}
+
+h3{
+    margin-top: 1px;
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.container-logo1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container-logo1:before,.container-logo1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid;
+    margin: auto;
+}
+
+.container-logo1:before {
+    margin-right: 10px
+}
+
+.container-logo1:after {
+    margin-left: 10px
+}
+
+.container-logo2{
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo2:before,.container-logo2:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid;
+    margin: auto;
+}
+
+.container-logo2:before {
+    margin-right: 10px
+}
+
+.container-logo2:after {
+    margin-left: 10px
+}
+
+.logo{
+    padding: 10px;
+filter: invert(20%) sepia(71%) saturate(5404%) hue-rotate(99deg) brightness(101%) contrast(107%);
+    
+}
+
+footer{
+    background-color: green;
+    height: 50px;
+    margin-top: 100px;
+    color: #141414;
+}
+footer p{
+   padding-top: 15px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: #141414;
+        color:  #01B4FF;
+        text-align: center;
+        background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    }
+
+    .pp{
+        /* border: solid #01B4FF;
+        border-width: 8px; */
+        border-radius: 50%;
+        margin-top: 50px;  
+        box-shadow: 0px 0px 35px #01B4FF;
+        /* padding: 5px;
+        background-color: #01B4FF; */
+    }
+
+    
+
+    h1{
+        font-size: 150px;
+        font-family: 'Source Sans Pro';
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    h3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+        font-size: 33px;
+        margin-top: 5px;
+        width: 300px;
+        display: inline-block;
+       
+    }
+
+    .container-logo1{
+        margin: auto;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+
+    .container-logo2 {
+        margin: auto;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+    .card-logo{
+        width: 70px;
+        height: 70px;
+        background-color: #01B4FF;
+        margin: auto;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px; 
+        margin-top: 7px;
+        box-shadow: 0px 0px 10px #01B4FF;
+       
+    }
+
+    .logo{
+        margin-top: 27px;
+        color: #141414;
+    }
+
+    footer{
+        width: auto;
+        height: 50px;
+        margin-top: 200px;
+    }
+
+    footer p{
+        padding-top: 15px;
+        color: #01B4FF;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: normal;
+    }
+}
